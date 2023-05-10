@@ -10,7 +10,9 @@ namespace CursoCSharp {
                 {"Primeiro Programa - Fundamentos", PrimeiroPrograma.Executar},
                 {"Variaveis e constantes - Fundamentos",VariaveisEConstantes.Executar },
                 {"Notação Ponto - Fundamentos",NotacaoPonto.Executar },
-                {"Lendo Dados - Fundamentos" ,LendoDados.Executar }
+                {"Lendo Dados - Fundamentos" ,LendoDados.Executar },
+                {"Formatando Números - Fundamentos",FormatandoNumeros.Executar },
+                {"Operadores Aritiméticos - Fundamentos",OperadoresAritimeticos.Executar }
             });
 
 
