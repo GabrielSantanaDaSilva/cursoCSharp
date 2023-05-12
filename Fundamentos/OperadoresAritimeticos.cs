@@ -18,6 +18,7 @@ namespace CursoCSharp.Fundamentos
 
             Console.WriteLine($"{n1} + {n2} = {n1+n2}");
             Console.WriteLine($"{n1} - {n2} = {n1-n2}");
+            
             if (n1 == 0  || n2 == 0) {
 
                 Console.WriteLine($"Não é possivel dividir 0");

@@ -25,7 +25,7 @@ namespace CursoCSharp.Fundamentos {
             string nome = "Cleiton";
             int idade = 23;
             double altura = 1.90;
-            bool temGato = true;
+           
             var sobrenome = "Perez";
 
 
