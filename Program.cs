@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 
 using CursoCSharp.Fundamentos;
+using CursoCSharp.EstruturasDeControle;
 
 namespace CursoCSharp {
     class Program {
@@ -13,7 +14,10 @@ namespace CursoCSharp {
                 {"Lendo Dados - Fundamentos" ,LendoDados.Executar },
                 {"Formatando Números - Fundamentos",FormatandoNumeros.Executar },
                 {"Operadores Aritiméticos - Fundamentos",OperadoresAritimeticos.Executar },
-                {"Exercícios Da Aula - Fundamentos", ExerciciosAula.Executar }
+                {"Exercícios Da Aula - Fundamentos", ExerciciosAula.Executar },
+                {"Operadores Relacionais - Fundamentos", OperadoresRelacionais.Executar },
+                {"Operadores de Atribuição - Fundamentos", OperadoresAtribuicao.Executar },
+                {"Estrutura If - Estrutura de Controle", EstruturaIf.Executar }
             });
 
 
