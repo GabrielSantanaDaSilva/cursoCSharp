@@ -17,7 +17,10 @@ namespace CursoCSharp {
                 {"Exercícios Da Aula - Fundamentos", ExerciciosAula.Executar },
                 {"Operadores Relacionais - Fundamentos", OperadoresRelacionais.Executar },
                 {"Operadores de Atribuição - Fundamentos", OperadoresAtribuicao.Executar },
-                {"Estrutura If - Estrutura de Controle", EstruturaIf.Executar }
+                {"Estrutura If - Estrutura de Controle", EstruturaIf.Executar },
+                {"Estrutura While e For - Estrutura de Controle", EstruturaWhileEFor.Executar },
+                {"Estrutura Switch - Estrutura de Controle", EstruturaSwitch1.Executar },
+                {"Exercicios de loop - Estrutura de Controle", ExerrciciosLoop.Executar }
             });
 
 
