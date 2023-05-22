@@ -34,14 +34,15 @@ namespace CursoCSharp.EstruturasDeControle
                 Console.WriteLine($"{n1}x{con}={n1*con}");
             }*/
 
-            int con = 0;
-            Console.WriteLine("Digite um número:");
+           /* int con = 0;
+            Console.WriteLine("Digite um número:");/
+
             int n1 = int.Parse(Console.ReadLine());
 
             for(con = 0; con <= n1; con++)
             {
                 Console.WriteLine($"{con}");
-            }
+            }*/
 
         }
     }
