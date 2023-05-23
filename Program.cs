@@ -25,7 +25,8 @@ namespace CursoCSharp {
                 {"Exercicios de loop - Estrutura de Controle", ExerrciciosLoop.Executar },
                 {"Estrutura For Each- Estrutura de Controle", EstruturaForEach.Executar },
                 
-                {"Membros - Classes de Métodos", Membros.Executar }
+                {"Membros - Classes de Métodos", Membros.Executar },
+                {"Construtores - Classes de Métodos", Construtores.Executar }
             });
 
 
