@@ -34,6 +34,7 @@ namespace CursoCSharp {
                 {"Get e Set 2 - Classes de Métodos", GetESetSegundoExemplo.Executar },
                 {"Get e Set Exercicio 1 - Classes de Métodos", Exercicio1GetSet.Executar },
                 {"Get e Set Exercicio 2 - Classes de Métodos", Exercicio2GetSet.Executar },
+                {"Get e Set Exercicio 3 - Classes de Métodos", Exercicio3GetSet.Executar },
             });
 
 

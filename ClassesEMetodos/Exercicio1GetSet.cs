@@ -21,7 +21,7 @@ namespace CursoCSharp.ClassesEMetodos
             {
                 get
                 {
-                    return  nome;
+                    return nome;
                 }
 
                 set
@@ -31,22 +31,22 @@ namespace CursoCSharp.ClassesEMetodos
             }
 
             public double Altura
-            {get;set;}
+            { get; set; }
 
-            public DateTime  DataNascimento
+            public DateTime DataNascimento
             { get; set; }
 
 
-            
+
 
             public void Imprimir()
-         {
-                
-               
-                    Console.WriteLine($"Olá {Nome} ");
-                    Console.WriteLine($"Você Nasceu em {DataNascimento} ");
-                    Console.WriteLine($"E você tem {Altura} metros de altura ");
-                    Console.WriteLine($"E você tem {DateTime.Today.Year - DataNascimento.Year} anos de idade"); 
+            {
+
+
+                Console.WriteLine($"Olá {Nome} ");
+                Console.WriteLine($"Você Nasceu em {DataNascimento} ");
+                Console.WriteLine($"E você tem {Altura} metros de altura ");
+                Console.WriteLine($"E você tem {DateTime.Today.Year - DataNascimento.Year} anos de idade");
             }
 
 
@@ -58,7 +58,7 @@ namespace CursoCSharp.ClassesEMetodos
 
             pessoa1.Nome = "cleiton";
             pessoa1.Altura = 1.98;
-            pessoa1.DataNascimento= new DateTime(2005, 04, 12);
+            pessoa1.DataNascimento = new DateTime(2005, 04, 12);
 
             pessoa1.Imprimir();
 
