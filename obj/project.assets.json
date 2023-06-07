@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    "net5.0": {}
+    "net5.0": {
+      "Encapsulamento/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/Encapsulamento.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Encapsulamento.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "Encapsulamento/1.0.0": {
+      "type": "project",
+      "path": "../Encapsulamento/Encapsulamento.csproj",
+      "msbuildProject": "../Encapsulamento/Encapsulamento.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net5.0": []
+    "net5.0": [
+      "Encapsulamento >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\gabriel.sasilva4\\.nuget\\packages\\": {},
@@ -15,11 +34,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\gabriel.sasilva4\\source\\repos\\CursoCSharp\\CursoCSharp.csproj",
+      "projectUniqueName": "C:\\Users\\gabriel.sasilva4\\source\\repos\\cursoCSharp\\CursoCSharp.csproj",
       "projectName": "CursoCSharp",
-      "projectPath": "C:\\Users\\gabriel.sasilva4\\source\\repos\\CursoCSharp\\CursoCSharp.csproj",
+      "projectPath": "C:\\Users\\gabriel.sasilva4\\source\\repos\\cursoCSharp\\CursoCSharp.csproj",
       "packagesPath": "C:\\Users\\gabriel.sasilva4\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\gabriel.sasilva4\\source\\repos\\CursoCSharp\\obj\\",
+      "outputPath": "C:\\Users\\gabriel.sasilva4\\source\\repos\\cursoCSharp\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -41,7 +60,11 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\gabriel.sasilva4\\source\\repos\\Encapsulamento\\Encapsulamento.csproj": {
+              "projectPath": "C:\\Users\\gabriel.sasilva4\\source\\repos\\Encapsulamento\\Encapsulamento.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
