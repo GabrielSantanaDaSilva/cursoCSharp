@@ -17,12 +17,12 @@ namespace CursoCSharp.POO
 
         public class Juridico : Cliente
         {
-            public string cnpj;
+            public string Cnpj;
         }
 
         public class Fisico : Cliente
         {
-            public string cpf;
+            public string Cpf;
 
         }
 
@@ -31,33 +31,36 @@ namespace CursoCSharp.POO
         {
             
 
-            Cliente Cleiton = new Cliente();
+            Fisico CleitonFisico = new Fisico ();
+            Cliente CleitonJuridico = new Juridico();
+           
 
+                 Console.WriteLine($" digite o tipo de cliente que você é: ");
+                 Console.WriteLine("1-> Fisico");
+                 Console.WriteLine("2-> Jurídico");
+            var tipo = Console.ReadLine();
+        if( tipo == "1"){
 
-            Console.WriteLine($"Digite seu nome");
+                 Console.WriteLine($"Digite seu nome:");
+                 CleitonFisico.Nome = Console.ReadLine();
+                 Console.WriteLine($"{CleitonFisico.Nome} informe seu CPF:");
+                 CleitonFisico.Cpf = Console.ReadLine();
+                            
 
-            Cleiton.Nome = Console.ReadLine();
-
-            Console.WriteLine($"{Cleiton.Nome} digite o tipo de cliente que você é: ");
-            Console.WriteLine("1-> Fisico");
-            Console.WriteLine("2-> Jurídico");
-            Cleiton.Tipo = Console.ReadLine();
-
-            if(Cleiton.Tipo == "1")
-            {
-
-                
-                Console.WriteLine($"{Cleiton.Nome} informe seu CPF:");
-                var cpf = Console.ReadLine();
-
-                Console.WriteLine($"{Cleiton.Nome} Você é um cliente Fisíco Válido");
-            }else if(Cleiton.Tipo == "2")
-            {
-
-
-                Console.WriteLine($"{Cleiton.Nome} Informe seu CNPJ:");
+                Console.WriteLine($"{CleitonFisico.Nome} Você é um cliente Fisíco Válido");
+        }else if(tipo == "2")
+                        {
+                Console.WriteLine("Digite seu nome:");
+                CleitonJuridico.Nome = Console.ReadLine();
+            
+                Console.WriteLine($"Digite seu nome");
+                CleitonJuridico.Nome = Console.ReadLine();
+                Console.WriteLine($"{CleitonJuridico.Nome} Informe seu CNPJ:");
                 var cnpj = Console.ReadLine();
-                Console.WriteLine($"{Cleiton.Nome} Você é um cliente Jurídico Válido"); 
+
+
+
+                Console.WriteLine($"{CleitonJuridico.Nome} Você é um cliente Jurídico Válido"); 
             }
 
 
