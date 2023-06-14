@@ -47,6 +47,7 @@ namespace CursoCSharp {
                 {"Encapsulamento - POO", POO.Encapsulamento.Executar },
                 {"Polimorfismo - POO", Polimorfismo.Executar },
                 {"Exercicio Polimorfismo - POO", ExercicioPolimorfismo.Executar },
+                {"Abstract - POO", Abstract.Executar },
             });
 
 

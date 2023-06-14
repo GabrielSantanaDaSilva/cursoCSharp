@@ -50,8 +50,7 @@ namespace CursoCSharp.POO
                 Console.WriteLine($"{CleitonFisico.Nome} Você é um cliente Fisíco Válido");
         }else if(tipo == "2")
                         {
-                Console.WriteLine("Digite seu nome:");
-                CleitonJuridico.Nome = Console.ReadLine();
+                
             
                 Console.WriteLine($"Digite seu nome");
                 CleitonJuridico.Nome = Console.ReadLine();
